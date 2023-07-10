@@ -1,3 +1,40 @@
-*{
-    
+* {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+/* header section */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 240px 0px;
+  background: #e554731a;
+}
+
+#header-title{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+#header-description {
+  color: #27272799;
+  font-size: 12px;
+  font-weight: 50;
+  margin: 13px 0px;
+}
+
+#shop-btn{
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+}
+
+#header-photo {
+  height: 500px;
+  display: block;
 }
