@@ -1,72 +1,75 @@
+/* for all section*/
 * {
   margin: 0px;
   font-family: "Lato", sans-serif;
 }
-
-/* header section  styles*/
-header {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 50px 200px 0px;
-  background: #e554731a;
-}
-
-.header-title {
-  color: 0.272727;
-  font-size: 40px;
+.title {
+  color: #272727;
+  font-size: 30px;
   font-weight: 800;
-  line-height: normal;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
+  text-align: center;
 }
-.header-description {
-  color: 0.27272799;
-  font-size: 15px;
-  font-weight: 50;
+.description {
+  color: #27272799;
+  font-size: 13px;
+  font-weight: 40;
   margin: 13px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  text-align: center;
 }
-
 .btn {
   background: #e55473;
+  color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
 }
 
+
+
+
+/* header section  styles*/
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 150px 0px;
+  background: #e554731a;
+  align-items: center;
+}
+.htitle{
+  color: #272727;
+  font-size: 50px;
+  font-weight: 10000;
+}
+.hdescription{
+  color: #27272799;
+  font-size: 13px;
+  font-weight: 40;
+  margin: 15px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .header-photo {
   height: 500px;
   display: block;
 }
 
+
+
 /* our feature section style */
-.our-features-title {
-  color: #272727;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bolder;
-  line-height: normal;
-  margin-top: 100px;
-}
-.our-features-para {
-  color: #27272799;
-  font-weight: 350;
-  height: 30px;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  padding: 10px 0px;
-}
 .our-features-item {
   padding: 0px 15px;
+}
+.our-features-heading{
+  padding-top: 150px;
 }
 .our-features-packs {
   display: flex;
   justify-content: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .flower-div1 {
   border-radius: 300px 300px 0px 0px;
@@ -111,6 +114,9 @@ header {
   padding-top: 20px;
   font-weight: 700;
 }
+
+
+
 /* hot deal style */
 .hot-deal {
   display: flex;
@@ -122,38 +128,27 @@ header {
 #off {
   color: #e55473;
 }
-.hot-deal-content{
+.hot-deal-content {
   text-align: center;
-
-}
-.hot-deal-title {
-  color: #272727;
-  font-size: 30px;
-  font-weight: bolder;
-  text-align: center;
-}
-.hot-deal-details {
-  color: #27272799;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 30px;
-  width: 500px;
 }
 .hot-deal-img {
   width: 200px;
   padding: 50px 0px 50px 150px;
 }
 
+
+
 /* instagram section */
-.insta{
-
+.insta-text {
+  text-align: center;
+  padding: 75px 0px 10px;
 }
-.insta-text{
-
+.insta-photos {
+  display: flex;
+  justify-content: center;
 }
-.insta-photos{
-
-}
-.insta-pic{
-  
+.insta-pic {
+  width: 250px;
+  height: 300;
+  padding: 15px;
 }
