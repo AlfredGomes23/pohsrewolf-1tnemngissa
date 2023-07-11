@@ -28,7 +28,7 @@ header {
   margin: 13px 0px;
 }
 
-.shop-btn {
+.btn {
   background: #e55473;
   border: none;
   padding: 10px 20px;
@@ -44,20 +44,23 @@ header {
 .our-features-title {
   color: #272727;
   text-align: center;
-  font-size: 25px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: bolder;
   line-height: normal;
   margin-top: 100px;
 }
 .our-features-para {
-  color: rgba(39, 39, 39, 0.6);
-  font-weight: 400;
+  color: #27272799;
+  font-weight: 350;
   height: 30px;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding: 10px 0px;
+}
+.our-features-item {
+  padding: 0px 15px;
 }
 .our-features-packs {
   display: flex;
@@ -68,7 +71,7 @@ header {
 .flower-div1 {
   border-radius: 300px 300px 0px 0px;
   background: #a7216226;
-  height: 400px;
+  height: 380px;
   width: 300px;
   display: flex;
   justify-content: center;
@@ -77,16 +80,16 @@ header {
 .flower-div2 {
   border-radius: 300px 300px 0px 0px;
   background: #0597a026;
-  height: 400px;
+  height: 380px;
   width: 300px;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
 }
 .flower-div3 {
   border-radius: 300px 300px 0px 0px;
   background: #477d1126;
-  height: 400px;
+  height: 380px;
   width: 300px;
   display: flex;
   justify-content: center;
@@ -96,54 +99,61 @@ header {
   height: 300px;
   width: 200px;
 }
-
-.our-features-item {
-  padding: 0px 15px;
+#flower2 {
+  height: 250px;
+  width: 250px;
 }
 
 .flower-name {
   text-align: center;
   text-decoration: underline;
   color: #272727;
+  padding-top: 20px;
+  font-weight: 700;
 }
-/* 
-.our-feature {
-  padding: 50px 50px 0px;
-}
-.our-feature-title {
-  text-align: center;
-  color: .272727;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: normal;
-}
-.our-features-para {
-  text-align: center;
-  color: .27272799;
-  font-size: 13px;
-  font-weight: 300;
-  line-height: 30px;
-}
-.our-features-items {
+/* hot deal style */
+.hot-deal {
   display: flex;
   justify-content: center;
+  border-radius: 8px;
+  background: #e554730d;
+  align-items: center;
 }
-.our-features-item {
-  border-radius: 300px 300px 0px 0px;
-  
-  background-color: .272727;
+#off {
+  color: #e55473;
 }
-.our-features-flower {
-  height: 340px;
-  height: 300px;
-  width: 200px;
-  
-}
-.flower-name {
+.hot-deal-content{
   text-align: center;
-  text-decoration-line: underline;
-  color: .272727;
+
+}
+.hot-deal-title {
+  color: #272727;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+}
+.hot-deal-details {
+  color: #27272799;
   font-size: 15px;
-  font-weight: 700;
-  line-height: 35px;
-} */
+  font-weight: 400;
+  line-height: 30px;
+  width: 500px;
+}
+.hot-deal-img {
+  width: 200px;
+  padding: 50px 0px 50px 150px;
+}
+
+/* instagram section */
+.insta{
+
+}
+.insta-text{
+
+}
+.insta-photos{
+
+}
+.insta-pic{
+  
+}
