@@ -3,11 +3,12 @@
   font-family: "Lato", sans-serif;
 }
 
-/* header section */
+/* header section  styles*/
 header {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 10px 240px 0px;
+  padding: 50px 200px 0px;
   background: #e554731a;
 }
 
@@ -22,19 +23,52 @@ header {
 }
 #header-description {
   color: #27272799;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 50;
   margin: 13px 0px;
 }
 
 #shop-btn{
-  padding: 10px 20px;
-  border-radius: 8px;
   background: #e55473;
   border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
 #header-photo {
   height: 500px;
   display: block;
+}
+
+/* our feature section style */
+
+#oure-feature{
+  padding: 50px 50px 0px;
+}
+#our-feature-title{
+  text-align: center;
+  color: #272727;
+font-size: 25px;
+font-weight: 500;
+line-height: normal;
+}
+#our-features-para{
+  text-align: center;
+  color: rgba(39, 39, 39, 0.60);
+font-size: 13px;
+font-weight: 300;
+line-height: 30px;
+}
+#our-features-items{
+  display: flex;
+  justify-content: center;
+}
+.our-features-item{
+  
+}
+.our-features-flower{
+height: 340px;
+}
+.flower-name{
+  text-align: center;
 }
