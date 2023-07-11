@@ -27,9 +27,6 @@
   border-radius: 8px;
 }
 
-
-
-
 /* header section  styles*/
 header {
   display: flex;
@@ -38,12 +35,12 @@ header {
   background: #e554731a;
   align-items: center;
 }
-.htitle{
+.htitle {
   color: #272727;
   font-size: 50px;
   font-weight: 10000;
 }
-.hdescription{
+.hdescription {
   color: #27272799;
   font-size: 13px;
   font-weight: 40;
@@ -56,13 +53,11 @@ header {
   display: block;
 }
 
-
-
 /* our feature section style */
 .our-features-item {
   padding: 0px 15px;
 }
-.our-features-heading{
+.our-features-heading {
   padding-top: 150px;
 }
 .our-features-packs {
@@ -115,8 +110,6 @@ header {
   font-weight: 700;
 }
 
-
-
 /* hot deal style */
 .hot-deal {
   display: flex;
@@ -136,8 +129,6 @@ header {
   padding: 50px 0px 50px 150px;
 }
 
-
-
 /* instagram section */
 .insta-text {
   text-align: center;
@@ -151,4 +142,29 @@ header {
   width: 250px;
   height: 300;
   padding: 15px;
+}
+
+/* latest deal section */
+.latest-deal {
+  margin: 75px 120px;
+  border-radius: 8px;
+  background: url(images/latest\ deal\ bg.png);
+  background-repeat: none;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe {
+  display: flex;
+  justify-content: space-around;
+}
+.email {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  width: 500px;
+  height: 40px;
+  flex-shrink: 0;
 }
