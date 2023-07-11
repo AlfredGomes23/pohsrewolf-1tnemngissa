@@ -11,7 +11,7 @@
 }
 .description {
   color: #27272799;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 40;
   margin: 13px 0px;
   margin-left: auto;
@@ -25,6 +25,9 @@
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
+}
+.color-text {
+  color: #e55473;
 }
 
 /* header section  styles*/
@@ -110,7 +113,7 @@ header {
   font-weight: 700;
 }
 
-/* hot deal style */
+/* hot deal section style */
 .hot-deal {
   display: flex;
   justify-content: center;
@@ -118,9 +121,7 @@ header {
   background: #e554730d;
   align-items: center;
 }
-#off {
-  color: #e55473;
-}
+
 .hot-deal-content {
   text-align: center;
 }
@@ -129,7 +130,7 @@ header {
   padding: 50px 0px 50px 150px;
 }
 
-/* instagram section */
+/* instagram section style*/
 .insta-text {
   text-align: center;
   padding: 75px 0px 10px;
@@ -144,7 +145,7 @@ header {
   padding: 15px;
 }
 
-/* latest deal section */
+/* latest deal section style*/
 .latest-deal {
   margin: 75px 120px;
   border-radius: 8px;
@@ -167,4 +168,68 @@ header {
   width: 500px;
   height: 40px;
   flex-shrink: 0;
+}
+
+/* bonus section style */
+.bonus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: wheat;
+  margin-bottom: 50px;
+}
+
+.bonus-text {
+  color: #27272799;
+  font-size: 13px;
+  font-weight: 40;
+  margin: 15px 0px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  border: none;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+.done {
+  text-emphasis-color: white;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+/* footer section style */
+footer {
+  height: 400px;
+  flex-shrink: 0;
+  background: #111010;
+}
+.ftitle {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 100px;
+}
+.fdescription {
+  color: #ffffffe6;
+  font-size: 15px;
+  width: 625px;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rights {
+  color: #ffffff66;
+  font-size: 11px;
+  padding-top: 20px;
+  text-align: center;
 }
